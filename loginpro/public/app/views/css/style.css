@@ -2,9 +2,9 @@
 /* BASIC STYLINGS
 ============================================================================= */
 body                            { padding-top:20px; }
-
+/*#2f2f2f*/
 /* form styling */
-#form-container                { background:#2f2f2f; margin-bottom:20px;
+#form-container                { background:#7F7B7B; margin-bottom:20px;
     border-radius:5px; }
 #form-container .page-header   { background:#151515; margin:0; padding:30px;
     border-top-left-radius:5px; border-top-right-radius:5px; }
@@ -36,23 +36,23 @@ body                            { padding-top:20px; }
 }
 
 /* enter animation */
-#form-views.ng-enter            {
+/*#form-views.ng-enter            {
     -webkit-animation:slideInRight 0.5s both ease;
     -moz-animation:slideInRight 0.5s both ease;
     animation:slideInRight 0.5s both ease;
-}
+}*/
 
 /* leave animation */
-#form-views.ng-leave            {
+/*#form-views.ng-leave            {
     -webkit-animation:slideOutLeft 0.5s both ease;
     -moz-animation:slideOutLeft 0.5s both ease;
     animation:slideOutLeft 0.5s both ease;
-}
+}*/
 
 /* ANIMATIONS
 ============================================================================= */
 /* slide out to the left */
-@keyframes slideOutLeft {
+/*@keyframes slideOutLeft {
     to      { transform: translateX(-200%); }
 }
 @-moz-keyframes slideOutLeft {
@@ -60,10 +60,10 @@ body                            { padding-top:20px; }
 }
 @-webkit-keyframes slideOutLeft {
     to      { -webkit-transform: translateX(-200%); }
-}
+}*/
 
 /* slide in from the right */
-@keyframes slideInRight {
+/*@keyframes slideInRight {
     from    { transform:translateX(200%); }
     to      { transform: translateX(0); }
 }
@@ -75,3 +75,4 @@ body                            { padding-top:20px; }
     from    { -webkit-transform:translateX(200%); }
     to      { -webkit-transform: translateX(0); }
 }
+*/
